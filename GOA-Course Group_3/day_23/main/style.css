@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+body {
+  background: linear-gradient(120deg, grey, rgb(0, 0, 0)) fixed;
+}
+
+/* title */
+#title {
+  display: inline-block;
+  color: rgb(2, 88, 9);
+  font-family: "roboto";
+}
+
+/* home button */
+#home {
+  color: rgb(88, 239, 93);
+  font-family: "roboto";
+  font-size: 18px;
+  display: inline-block;
+  margin-left: 490px;
+  margin-bottom: 200px;
+}
+#home:hover {
+  color: rgb(255, 0, 0);
+  scale: 1.2;
+  transition: 1.2s;
+  cursor: pointer;
+}
+#home:active {
+  color: rgb(255, 0, 0);
+}
+
+/* projects */
+#projects {
+  font-family: "roboto";
+  font-size: 18px;
+  display: inline-block;
+  margin-left: 50px;
+  color: rgb(88, 239, 93);
+}
+
+#projects:hover {
+  color: rgb(255, 0, 0);
+  scale: 1.2;
+  transition: 1.2s;
+  cursor: pointer;
+}
+
+/* contact */
+#contact {
+  color: rgb(88, 239, 93);
+  font-family: "roboto";
+  font-size: 18px;
+  display: inline-block;
+  margin-left: 50px;
+}
+#contact:hover {
+  color: rgb(255, 0, 0);
+  scale: 1.2;
+  transition: 1.2s;
+  cursor: pointer;
+
+  /* coureses */
+}
+#courses {
+  color: rgb(88, 239, 93);
+  font-family: "roboto";
+  font-size: 18px;
+  display: inline-block;
+  margin-left: 50px;
+}
+#courses:hover {
+  color: rgb(255, 38, 0);
+  scale: 1.2;
+  transition: 1.2s;
+  cursor: pointer;
+}
+
+/* login */
+#login {
+  margin-left: 40px;
+  font-family: "roboto";
+  font-size: 19px;
+  border-radius: 10px;
+  background: linear-gradient(green, rgb(30, 204, 47));
+}
+#login:hover {
+  cursor: pointer;
+  color: rgb(255, 17, 0);
+  scale: 1.1;
+  transition: 1.2s;
+  background: rgb(38, 202, 188);
+}
+#login:active {
+  cursor: progress;
+}
+
+/* photo of GOA */
+#goa {
+  border-radius: 75px;
+  margin-top: 20px;
+  margin-left: 760px;
+  width: 35%;
+}
+
+/* about goa */
+#bgoa {
+  font-family: "roboto";
+  bottom: 220px;
+  left: 60px;
+  position: absolute;
+  display: inline-block;
+  font-size: 30px;
+  color: green;
+}
+
+/* courses */
+#course {
+  font-size: 25px;
+  font-family: "roboto";
+  display: inline-block;
+  color: chartreuse;
+  margin-left: 50%;
+  margin-top: 350px;
+}
+
+html{
+  scroll-behavior: smooth;
+  
+}

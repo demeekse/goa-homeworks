@@ -1,0 +1,15 @@
+body {
+  background: linear-gradient(grey, white) fixed;
+}
+#title {
+  text-align: center;
+}
+#p2 {
+  display: inline;
+  margin-right: 250px;
+  margin-top: 100px3;
+}
+#img{
+  margin-left: 700px;
+  font-size-adjust: 100px;
+}
